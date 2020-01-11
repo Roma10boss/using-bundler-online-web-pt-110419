@@ -1,3 +1,6 @@
+require 'bundler/setup'
+Bundler.require(:default, :development)
+
 source "https://rubygems.org"
 gem "rspec"
 gem "sinatra" , '1.4.4'
