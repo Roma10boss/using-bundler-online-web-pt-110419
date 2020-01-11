@@ -1,8 +1,11 @@
 source "https://rubygems.org"
 gem "rspec"
-gem 'sinatra', '1.4.4'
+gem "sinatra" , '1.4.4'
 gem "hashie"
-gem 
-group :development do
-gem "pry"
+gem "octokit", '2.0'
+gem "awesome_print", git: "git@github.com:"
+gem "pry" , :group => :development
+
+group "test" do
+gem "rspec"
 end
